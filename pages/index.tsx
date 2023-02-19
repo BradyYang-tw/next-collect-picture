@@ -3,10 +3,10 @@
 // import { Inter } from '@next/font/google'
 // import styles from '@/styles/Home.module.css'
 import HomePage from "@/layout/HomePage";
-import UI from "@/components/UI/UI";
+
 
 const Home = ()=>{
-  return <UI> <HomePage></HomePage></UI>
+  return  <HomePage></HomePage>
 }
 export default Home;
 // const inter = Inter({ subsets: ['latin'] })

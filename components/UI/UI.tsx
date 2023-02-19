@@ -1,5 +1,7 @@
 import React from "react";
-// import "./UI.css"
+import Header from "./Header";
+import Footer from "./Footer";
+import styles from './UI.module.css'
 
 // TODO: 是甚麼?
 interface UIProps {
@@ -11,9 +13,9 @@ interface UIProps {
 
 const UI= (props: UIProps)=>{
     return <div>
-        <header className='header'>我是Header</header>
-        <section>{props.children} </section>
-        <footer>我是Footer</footer>
+        <Header />
+        <section className={styles.content}>{props.children} </section>
+        <Footer/>
     </div>
 }
 export default UI
