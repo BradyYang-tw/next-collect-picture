@@ -1,0 +1,33 @@
+.textColor {
+  color: red;
+  font-size: 30px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(37, 37, 48);
+  height: 100px;
+}
+
+.header .title {
+  color: white;
+  font-size: 36px;
+}
+
+.header .nav {
+  width: 20%;
+  color: white;
+  font-size: 18px;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.section {
+  background-color: ghostwhite;
+  width: 100%;
+  height: calc(100vh - 100px);
+}

@@ -9,7 +9,13 @@ const nextConfig = {
         hostname: 'images.unsplash.com',
         port: '',
         pathname: '/**',
-      },]
+      },{
+        protocol: 'https',
+        hostname: 'image-cdn.hypb.st',
+        port: '',
+        pathname: '/**',
+        
+      }]
   }
 }
 
